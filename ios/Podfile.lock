@@ -1,0 +1,135 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_app_badger (1.3.0):
+    - Flutter
+  - flutter_native_image (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - limiting_direction_csx (0.0.1):
+    - Flutter
+  - nfc_manager (0.0.1):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - ReachabilitySwift (5.0.0)
+  - scan (0.0.1):
+    - Flutter
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Toast (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_app_badger (from `.symlinks/plugins/flutter_app_badger/ios`)
+  - flutter_native_image (from `.symlinks/plugins/flutter_native_image/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - limiting_direction_csx (from `.symlinks/plugins/limiting_direction_csx/ios`)
+  - nfc_manager (from `.symlinks/plugins/nfc_manager/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - scan (from `.symlinks/plugins/scan/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - ReachabilitySwift
+    - Toast
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: Flutter
+  flutter_app_badger:
+    :path: ".symlinks/plugins/flutter_app_badger/ios"
+  flutter_native_image:
+    :path: ".symlinks/plugins/flutter_native_image/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  limiting_direction_csx:
+    :path: ".symlinks/plugins/limiting_direction_csx/ios"
+  nfc_manager:
+    :path: ".symlinks/plugins/nfc_manager/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  scan:
+    :path: ".symlinks/plugins/scan/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_app_badger: b87fc231847b03b92ce1412aa351842e7e97932f
+  flutter_native_image: 9c0b7451838484458e5b0fae007b86a4c2d4bdfe
+  fluttertoast: 16fbe6039d06a763f3533670197d01fc73459037
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  limiting_direction_csx: be69e2816869ea0e3524160e1ecf95137df43a2f
+  nfc_manager: 69e4cd9c15112206ab30246b1ce8d81a75729fdf
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  scan: aea35bb4aa59ccc8839c576a18cd57c7d492cc86
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: a75497545d4391e2d394c3668e20cfb1c2bbd4aa
+
+COCOAPODS: 1.11.3

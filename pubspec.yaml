@@ -1,0 +1,174 @@
+name: umpay_crossborder_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+  flutter_localizations:
+    sdk: flutter
+
+  # flutter_boost: ^1.17.1
+
+  image_picker: ^0.8.2
+  # image_picker: ^0.6.1+8
+  scan: ^1.5.0 
+  # 生成二维码
+  qr_flutter: ^4.0.0  
+  fluttertoast: ^8.0.7
+  date_format: ^2.0.2
+  event_bus: ^2.0.0
+
+  # flutter_swiper: ^1.1.6
+   #最新版本的flutter中使用flutter_swiper_null_safety替代flutter_swiper，他们的用法都是一样的。
+  flutter_swiper_null_safety: ^1.0.2
+  flutter_screenutil: ^5.0.0+2
+  # flutter_screenutil: ^0.5.3
+
+  dio: ^4.0.0
+  shared_preferences: ^2.0.5
+  provider: ^5.0.0
+  # city_pickers: ^0.2.0
+  crypto: ^3.0.1
+  # flutter_inappwebview: ^5.3.2
+  webview_flutter: ^2.0.8
+
+  # flutter_cupertino_date_picker: ^1.0.26+2
+  flutter_cupertino_datetime_picker: ^2.0.1
+  # flutter_datetime_picker: ^1.5.1
+  
+  flutter_easyloading: ^3.0.0
+  #flutter 工具类
+  flustars: ^2.0.1
+  common_utils: ^2.0.2
+  url_launcher: ^6.0.5
+  #下拉刷新上提加载
+  pull_to_refresh: ^2.0.0
+  #权限管理
+  permission_handler: ^8.1.3
+
+  #保存到相册
+  # image_gallery_saver: ^1.6.9
+  image_gallery_saver: ^1.7.1
+
+  # 图片预览放大滑动
+  photo_view: ^0.12.0
+  #图片缓存异常/加载失败优化
+  cached_network_image: ^3.0.0
+  rxdart: ^0.27.1
+  package_info: ^2.0.2
+  device_info: ^2.0.2
+  #验证码 mac air电脑运行项目注释掉。。。
+  #flutter_verification_box: ^2.0.0 
+  flutter_verification_box:
+    git:
+      url: https://gitee.com/dwqc/flutter_verification_box_fix.git
+      ref: 'v2.0.2'
+
+  #欢迎页
+  intro_slider: ^2.4.3
+  nfc_manager: ^3.1.0  
+  #设置ios方向为横屏展示
+  limiting_direction_csx: ^0.1.0 
+  path_provider: ^2.0.2
+  flutter_native_image: ^0.0.6+1
+  marquee: ^2.2.0
+
+  #去除ListView上下滑动有水波纹的效果   lixiao add 注释。。。因为这个库加入以后在mian和login文件不支持null safety
+  # noripple_overscroll: ^0.0.2  
+
+  # 添加app_badger(1,2,3...)
+  # flutter_app_badger: ^1.2.0
+  flutter_app_badger: ^1.3.0
+  flutter_badged: ^2.0.1
+  #中国的城市三级联动选择器
+  # city_pickers: ^1.0.1
+  # kzcity_picker: ^0.0.4
+  # kzcity_picker:
+  #   path: ./plugins/city_picker
+  platform: ^3.1.0
+  # GetX状态管理框架 https://pub.flutter-io.cn/packages/get
+  get: ^4.6.1
+  # 网络检测 https://pub.flutter-io.cn/packages/connectivity_plus
+  connectivity_plus: ^2.3.0
+    
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  assets:
+
+    - assets/1.html
+    - assets/city.json
+    
+    # 此种方式可以把images文件夹下的所有图片加载，方式为：image.asset(“图片路径”)
+    - images/
+    - images/2.0x/
+    - images/3.0x/
+
+  
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
