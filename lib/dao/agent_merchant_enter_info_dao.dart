@@ -6,17 +6,17 @@ import '../../../network/http_manager.dart';
 ///商户入驻信息接口
 
 class AgentMerchantEnterInfoDao {
-
-  //商户入驻信息接口 - 基本信息接口
-  static Future<Map<String, dynamic>?> doAgentMerchantEnterBasicData(Map paramsMap) async {
+  /// 商户入驻信息接口 - 基本信息接口
+  static Future<Map<String, dynamic>?> doAgentMerchantEnterBasicData(
+      Map paramsMap) async {
     PublishSubject<ValidateResult> resultSubject =
         PublishSubject<ValidateResult>();
 
     resultSubject.add(ValidateResult(ValidateType.validating));
     HttpManager.instance.baseUrl = Config.baseUrl;
 
-    ValidateResult result =
-        await HttpManager.instance.request(await Api.apiAgentMerchantEnterBasicData(paramsMap));
+    ValidateResult result = await HttpManager.instance
+        .request(await Api.apiAgentMerchantEnterBasicData(paramsMap));
 
     switch (result.validateType) {
       case ValidateType.validating:
@@ -29,7 +29,7 @@ class AgentMerchantEnterInfoDao {
               .add(ValidateResult(ValidateType.success, data: "处理好的数据"));
           // Utf8Decoder utf8decoder = Utf8Decoder(); // fix 中文乱码
           // var result = json.decode(utf8decoder.convert(result.data));
-          if (result.data.toString().length == 0) {
+          if (result.data.toString().isEmpty) {
             return null;
           }
           Map<String, dynamic> resultModel = result.data;
